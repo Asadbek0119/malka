@@ -36,8 +36,13 @@
 .header_language {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     column-gap: 5px;
+}
+.header_language .dropdown-menu .dropdown-item {
+   padding-right: 0;
+}
+.header_language .dropdown-menu {
+    --bs-dropdown-min-width: 50px;
 }
 .navbar_mabil-exit {
     display: none;
@@ -235,7 +240,7 @@
     height: 319px;
 }
 .centr_news-card {
-    padding: 14px 20px;
+    padding: 0px 0px;
 }
 .centr_news-img {
     height: 200px;
@@ -258,7 +263,7 @@
     justify-content: space-between;
     color: #8D8787;
     font-family: Inter;
-    font-size: 10px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
